@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "testDemo"
+  spec.name         = "testDemolll"
   spec.version      = "1.0.0"
   spec.summary      = "A short description testDemo."
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = "a test demo ok duoduo  chi zhi  o  xiexie "
 
 
-  spec.homepage     = "https://github.com/lll3/testDemo.git"
+  spec.homepage     = "https://github.com/lll3/testDemolll.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/lll3/testDemo/testDemo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/lll3/testDemolll.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "testDemo", "testDemo/lib/**/*.{h,m}"
+  spec.source_files  = "testDemo", "testDemo/lib.framework/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
