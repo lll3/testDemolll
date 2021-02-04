@@ -121,7 +121,7 @@ Pod::Spec.new do |spec|
   #spec.module_name = "testDemo"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = "testDemolll/**/*.{h,m}" 
+  spec.vendored_frameworks = "testDemolll/*.{h,m}" 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
