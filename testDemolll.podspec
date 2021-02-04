@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "testDemolll", "testDemo.framework/**/*.{h,m}"
+  #spec.source_files  = "testDemolll", "testDemolll.framework/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -121,7 +121,7 @@ Pod::Spec.new do |spec|
   #spec.module_name = "testDemo"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
+  spec.vendored_frameworks = "testDemolll/**/*.{h,m}" 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
