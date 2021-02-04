@@ -18,6 +18,7 @@
 		E069EB37251B1DCC00B3E562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E069EB36251B1DCC00B3E562 /* main.m */; };
 		E069EB41251B1DCD00B3E562 /* testDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E069EB40251B1DCD00B3E562 /* testDemoTests.m */; };
 		E069EB4C251B1DCD00B3E562 /* testDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E069EB4B251B1DCD00B3E562 /* testDemoUITests.m */; };
+		E0F496AC25CA875C0024C576 /* testDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F496AB25CA875C0024C576 /* testDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E069EB47251B1DCD00B3E562 /* testDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E069EB4B251B1DCD00B3E562 /* testDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDemoUITests.m; sourceTree = "<group>"; };
 		E069EB4D251B1DCD00B3E562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F496AB25CA875C0024C576 /* testDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = testDemo.framework; sourceTree = SOURCE_ROOT; };
 		E19CCF0607885D7C400D61BD /* Pods-testDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo.debug.xcconfig"; path = "Target Support Files/Pods-testDemo/Pods-testDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FDCD478ED56CB016EE8E2FA2 /* Pods_testDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				399B6F91B00C8628FC77D59C /* Pods_testDemo.framework in Frameworks */,
+				E0F496AC25CA875C0024C576 /* testDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +125,7 @@
 		E069EB23251B1DC900B3E562 /* testDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E0F496AB25CA875C0024C576 /* testDemo.framework */,
 				E069EB24251B1DC900B3E562 /* AppDelegate.h */,
 				E069EB25251B1DC900B3E562 /* AppDelegate.m */,
 				E01820C62520639B00B5B78F /* UIFont+Adapt.h */,
@@ -502,6 +506,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/testDemo",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = testDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -527,6 +532,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/testDemo",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = testDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
