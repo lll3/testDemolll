@@ -119,9 +119,9 @@ Pod::Spec.new do |spec|
   #spec.framework  = "testDemoFramework"
   #spec.frameworks = "UIKit"
   #spec.module_name = "testDemo"
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = "testDemolll/*.{h,m}" 
+  #spec.library   = "iconv"
+  #spec.libraries = "iconv", "xml2"
+  spec.vendored_frameworks = "testDemolll/test.framework" 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
