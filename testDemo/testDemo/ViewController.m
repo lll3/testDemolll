@@ -16,16 +16,19 @@
     UILabel *nameLabel;
 }
 
-@property (nonatomic,strong) UILabel *titleLabel;
+@property (atomic,strong) UILabel *titleLabel;
 
 @end
 
 @implementation ViewController
+//@synthesize titleLabel;
 
 - (void)viewDidLoad{
     [super viewDidLoad];
         
     [self test];
+    
+    nameLabel.text = @"";
     
 //    WechatPay *pay = [[WechatPay alloc] init];
 //
